@@ -1,0 +1,23 @@
+.winner-status {
+    font-weight: bold;
+    font-size: 2rem;
+    color: forestgreen;
+    display: flex;
+    justify-content: center;
+}
+
+.red-status {
+    font-weight: lighter;
+    font-size: 2rem;
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.blue-status {
+    font-weight: lighter;
+    font-size: 2rem;
+    color: blue;
+    display: flex;
+    justify-content: center;
+}

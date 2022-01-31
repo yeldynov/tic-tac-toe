@@ -1,0 +1,43 @@
+
+.square {
+    background: lightgoldenrodyellow;
+    border: 3px solid black;
+    float: left;
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 100px;
+    height: 100px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 100px;
+}
+
+.square:focus {
+    outline: none;
+}
+
+.kbd-navigation .square:focus {
+    background: #ddd;
+}
+
+.red {
+    font-weight: lighter;
+    font-size: 3rem;
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.blue {
+    font-weight: lighter;
+    font-size: 3rem;
+    color: blue;
+    display: flex;
+    justify-content: center;
+}
+
+.winner {
+    background: mediumseagreen;
+}
